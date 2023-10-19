@@ -9,7 +9,7 @@ import (
 
 func main() {
 	routes.LoadRoutes()
-	log.Print("Listening on 3000")
+	log.Print("Listening on 8000")
 	http.ListenAndServe(":8000", nil)
 }
 
